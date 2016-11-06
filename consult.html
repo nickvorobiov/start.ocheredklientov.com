@@ -1,0 +1,145 @@
+---
+layout: base
+---
+
+<div class="block text-center">
+  <div class="container">
+    <h1 class="m-y-lg">Консультация стоимостью <s>17500 рублей</s> в&nbsp;подарок</h1>
+    <h3>ты получишь план действий, заточенный именно под твою ситуацию</h3>
+  </div>
+</div>
+
+<div class="block block-bordered">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8 col-md-offset-2">
+        <h1 class="m-t-lg m-b">Зачем это тебе</h1>
+        <p>Общие рекомендации конечно очень полезны, но не всегда подходят целиком. <b>Ты получишь персонализированные рекомендации, подходящие под твою ситуацию</b>.</p>
+        <p>На консультации мы разработаем пошаговый план решения именно твоих вопросов.</p>
+        <p><b>План ты сможешь применить сегодня же</b>.</p>
+
+        <h1 class="m-t-lg m-b">Зачем это мне</h1>
+        <p>Мне важно <b>лучше узнать твою ситуацию</b>, чтобы потом сделать тебе более подходящее предложение.</p>
+        <p>А ещё персональное общение с подписчиками позволяет мне <b>лучше понимать потребности рынка</b> и держать мои предложения в актуальном состоянии.</p>
+        <p>Кстати, когда ты будешь внедрять мою систему, ты тоже будешь общаться со своими потенциальными клиентами.</p>
+
+        <h1 class="m-t-lg m-b">Мой главный принцип — польза вперёд</h1>
+        <p>Я бы мог сделать консультацию платной, и подробно рассказать тебе о том, какая крутая будет консультация, как она у тебя во много раз окупится, показывать отзывы и так далее.</p>
+        <p>Но всё это — вода. Я предпочитаю не рассказывать, а показать и <b>дать пощупать ценность</b>, прежде чем заикаться про деньги.</p>
+        <p>Поэтому, давай так: я хочу тебе дать пользу, очень быстро. Эта консультация будет короткой. Но при этом очень ценной. Я помогу тебе решить ровно один твой вопрос, но самый важный.</p>
+        <p>Поэтому я хочу спросить тебя: какой первый шаг я могу помочь тебе сделать в твоей ситуации, чтобы ты понял, что нам с тобой стоит сотрудничать? Какой результат ты бы хотел получить от консультации?</p>
+        <p><b>Консультация будет для тебя бесплатной</b>, но напиши такой результат, чтобы если бы консультация стоила 17500 рублей, ты всё равно счёл бы это очень выгодным предложением.</p>
+
+        <form method="post" action="http://bot.nickvorobiov.com/order.php" data-toggle="validator">
+          <input type="hidden" name="trello-list-id" value="581106bb5061c4c44f197e86" />
+          <input type="hidden" name="redirect" value="http://ok.nickvorobiov.com/ok/" />
+          <input type="hidden" name="traffic_source" />
+          <input type="hidden" name="roistat" />
+          <div class="help-block with-errors"></div>
+          <div class="form-group">
+            <label for="input-result" class="control-label">За какой результат от консультации ты бы с радостью заплатил 17500 рублей?</label>
+            <textarea id="input-result" required="required" name="name" type="text" class="form-control" placeholder="Твой ответ" rows="5"></textarea>
+          </div>
+          <p class="lead m-t-md">Теперь несколько вопросов о тебе и твоей ситуации, чтобы я мог подготовиться к консультации</p>
+          <div class="form-group">
+            <label>Чем занят?</label>
+            <div class="radio custom-control custom-radio">
+              <label>
+                <input required="required" type="radio" name="current" value="{{ 'Работаю по найму' | urlencode }}">
+                <span class="custom-control-indicator"></span>
+                Работаю по найму
+              </label>
+            </div>
+            <div class="radio custom-control custom-radio">
+              <label>
+                <input required="required" type="radio" name="current" value="{{ 'Работаю на себя' | urlencode }}">
+                <span class="custom-control-indicator"></span>
+                Работаю на себя
+              </label>
+            </div>
+            <div class="radio custom-control custom-radio">
+              <label>
+                <input required="required" type="radio" name="current" value="{{ 'Есть работающий бизнес' | urlencode }}">
+                <span class="custom-control-indicator"></span>
+                Есть работающий бизнес
+              </label>
+            </div>
+          </div>
+          <div class="form-group">
+            <label>Уровень дохода</label>
+            <div class="help-block with-errors"></div>
+            <div class="radio custom-control custom-radio">
+              <label>
+                <input required="required" type="radio" name="income" value="0-40">
+                <span class="custom-control-indicator"></span>
+                до 40 000 рублей в месяц
+              </label>
+            </div>
+            <div class="radio custom-control custom-radio">
+              <label>
+                <input required="required" type="radio" name="income" value="40-70">
+                <span class="custom-control-indicator"></span>
+                от 40 000 до 70 000 рублей в месяц
+              </label>
+            </div>
+            <div class="radio custom-control custom-radio">
+              <label>
+                <input required="required" type="radio" name="income" value="70-100">
+                <span class="custom-control-indicator"></span>
+                от 70 000 до 100 000 рублей в месяц
+              </label>
+            </div>
+            <div class="radio custom-control custom-radio">
+              <label>
+                <input required="required" type="radio" name="income" value="100-300">
+                <span class="custom-control-indicator"></span>
+                от 100 000 до 300 000 рублей в месяц
+              </label>
+            </div>
+            <div class="radio custom-control custom-radio">
+              <label>
+                <input required="required" type="radio" name="income" value="300plus">
+                <span class="custom-control-indicator"></span>
+                от 300 000 рублей в месяц
+              </label>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="input-situation" class="control-label">Текущая ситуация</label>
+            <textarea id="input-situation" required="required" name="situation" type="text" class="form-control" placeholder="Опиши вкратце свою текущую ситуацию"></textarea>
+          </div>
+          <div class="form-group">
+            <label for="input-outcome" class="control-label">Твоя цель</label>
+            <textarea id="input-outcome" required="required" name="outcome" type="text" class="form-control" placeholder="Напиши, чего ты хочешь добиться"></textarea>
+          </div>
+          <div class="form-group">
+            <label for="input-cause" class="control-label">Что тебе мешает добиться этого прямо сейчас?</label>
+            <textarea id="input-cause" required="required" name="cause" type="text" class="form-control" placeholder="Какие препятствия между тобой и твоей целью"></textarea>
+          </div>
+          <div class="form-group">
+            <label for="input-resource" class="control-label">Каких ресурсов тебе не хватает?</label>
+            <textarea id="input-resource" required="required" name="resource" type="text" class="form-control" placeholder="Что может тебе помочь"></textarea>
+          </div>
+          <div class="form-group">
+            <label for="input-effect" class="control-label">Зачем тебе достигать этой цели?</label>
+            <textarea id="input-effect" required="required" name="effect" type="text" class="form-control" placeholder="В чём для тебя смысл этой цели"></textarea>
+          </div>
+          <p class="lead m-t-md">Как с тобой связаться для проведения консультации?</p>
+          <div class="form-group">
+            <label for="input-name" class="control-label">Имя</label>
+            <input id="input-name" required="required" name="name" type="text" class="form-control" placeholder="Иван Иванов">
+          </div>
+          <div class="form-group">
+            <label for="input-phone" class="control-label">Телефон</label>
+            <input id="input-phone" required="required" name="phone" type="text" class="form-control" placeholder="+7 (921) 765-43-21">
+          </div>
+          <div class="form-group">
+            <label for="input-email" class="control-label">Электронная почта</label>
+            <input id="input-email" required="required" name="email" type="text" class="form-control" placeholder="ivan@ivanov.com">
+          </div>
+          <button type="submit" class="btn btn-primary btn-block b-join__button">Записаться на консультацию и получить персональный план</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
